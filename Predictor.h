@@ -8,8 +8,8 @@
 
 struct entry {
 	bool taken;
-	int address;
-	int target;
+	unsigned long long address;
+	unsigned long long target;
 };
 
 class Predictor {
